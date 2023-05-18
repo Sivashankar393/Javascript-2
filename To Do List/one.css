@@ -29,13 +29,23 @@ form{
     
 }
 #mytext{
-    
+    padding: 0 10px;
+    margin-right: 11px;
     height: 33px;
+}
+#addBtn{
+    background-color: rgb(87, 87, 223);
+    padding: 5px;
+}
+#addBtn:hover{
+    cursor: pointer;
+    background-color: rgb(75, 75, 236);
 }
 ul{
     margin: 33px auto;
     width: 100%;
     background-color: rgb(51, 123, 182);
+    list-style:none
 }
 li{
     position: relative;

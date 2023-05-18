@@ -7,8 +7,9 @@ for (var i= 0;i<list.length;i++){
     span.appendChild(close);
     list[i].appendChild(span);
 }
-var close = document.getElementByIdclassName("close");
-for (i=0;i<close.length;i++){
+var close = document.getElementByclassName("close");
+for (var i=0;i<list.length;i++){
+
     close[i].onclick=function(){
         var d = this.parentElement;
         d.style.display="none";
@@ -16,8 +17,8 @@ for (i=0;i<close.length;i++){
 }
 function mylist(){
     var li = document.createElement("li");
-    var mytext = document.getElementById("mytext").value;
-    var t = document.createTextNode(mytxt)
+    var mytxt = document.getElementById("mytext").value;
+    var t = document.createTextNode("mytxt");
     li.appendChild(t);
     if(mytxt ==""){
         alert("Input Field is Empty");
